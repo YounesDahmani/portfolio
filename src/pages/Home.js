@@ -1,6 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../components/Button";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";
 
@@ -72,6 +73,27 @@ const Home = () => {
           <Project projectNumber={3} />
         </div>
       </div>
+      <div className="view-more-projects">
+        <div className="vmp-container">
+          <p>There's more</p>
+          <NavLink to="/works">
+            <h2>
+              view all projects{" "}
+              <svg
+                className="right-arrow"
+                width="24"
+                height="24"
+                xmlns="http://www.w3.org/2000/svg"
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+              >
+                <path d="M21.883 12l-7.527 6.235.644.765 9-7.521-9-7.479-.645.764 7.529 6.236h-21.884v1h21.883z" />
+              </svg>
+            </h2>
+          </NavLink>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };

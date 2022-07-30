@@ -83,6 +83,7 @@
     width: 100%;
     transform: translateX(100%) translateY(-50%);
     z-index: 1;
+    visibility: hidden;
   }
 }
 
@@ -126,6 +127,8 @@
       .work-item-pic {
         img {
           right: 100%;
+          visibility: visible;
+          max-width: 700px;
         }
       }
     }

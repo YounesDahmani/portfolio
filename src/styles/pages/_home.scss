@@ -7,6 +7,11 @@
   min-height: 90vh;
   width: 75%;
   margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 .header-content {
   display: grid;
@@ -16,13 +21,7 @@
   grid-template-columns: 60% 40%;
   min-height: 75vh;
 }
-.header-container {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
+
 .header-text {
   h1 {
     font-size: 3rem;
@@ -84,4 +83,34 @@ li {
 .project-title {
   width: 75%;
   margin: 0 auto;
+}
+
+.view-more-projects {
+  background: white;
+  display: flex;
+  align-items: center;
+  padding: 150px 0px;
+  h2 {
+    font-size: 3rem;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    width: fit-content;
+
+    &:hover {
+      transform: translateX(20px);
+    }
+  }
+  p {
+    padding: 55px 0px 30px;
+    font-family: $font-3;
+    color: $color-6;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    color: $color-4;
+    font-size: 0.7rem;
+  }
+  .vmp-container {
+    width: 75%;
+    margin: 0 auto;
+  }
 }
