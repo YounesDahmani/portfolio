@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { projectsData } from "../data/projectsData";
 import Button from "./Button";
 
@@ -6,7 +6,7 @@ const Project = ({ projectNumber }) => {
   const [currentProject] = useState(projectsData[projectNumber]);
 
   return (
-    <div className="project-container">
+    <div data-aos="fade-up" className="project-container">
       <div className="project-content">
         {/* left-part */}
         <div className="left-project-content">

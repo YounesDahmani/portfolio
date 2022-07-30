@@ -1,11 +1,16 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 import Project from "../components/Project";
+// import Aos from "aos";
+// import "aos/dist/aos.css";
 
 const Home = () => {
+  // useEffect(() => {
+  //   Aos.init({ duration: 1500 });
+  // }, []);
   return (
     <div className="home">
       <div className="header">
@@ -59,17 +64,18 @@ const Home = () => {
       </div>
       <div className="projects-content">
         <NavLink to="/about">
-          <div className="project-1">
+          <div id="project-1">
             <Project projectNumber={0} />
           </div>
         </NavLink>
-        <div className="project-2">
+
+        <div id="project-2">
           <Project projectNumber={1} />
         </div>
-        <div className="project-3">
+        <div id="project-3">
           <Project projectNumber={2} />
         </div>
-        <div className="project-4">
+        <div id="project-4">
           <Project projectNumber={3} />
         </div>
       </div>
