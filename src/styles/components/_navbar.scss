@@ -1,0 +1,38 @@
+.navbar {
+  position: fixed;
+  display: flex;
+  min-height: 10vh;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 30px;
+  width: 100%;
+  z-index: 99999;
+  a:visited {
+    color: $color-1;
+  }
+  p {
+    color: $color-1;
+    font-size: 2rem;
+  }
+  ul {
+    padding-right: 60px;
+    display: flex;
+    justify-content: space-between;
+    min-width: 20%;
+    @include texteffect;
+    span {
+      font-family: $font-3;
+      color: $color-3;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: $color-3;
+    }
+  }
+  .nav-active {
+    li {
+      color: $color-1;
+    }
+  }
+}
