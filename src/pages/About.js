@@ -10,14 +10,12 @@ const About = () => {
         <div className="about-header-container">
           <div className="-about-text">
             <h1>
-              I am a young front-end developer,
-              <br /> who is eager to discover and learn the limitless world of
-              development.
+              I am a young front-end developer, <br /> who is eager to discover{" "}
+              <br />
+              and learn the limitless world <br /> of development.
             </h1>
           </div>
-          <div className="about-header-pic">
-            <img src="./assets/img/cross-black.svg" alt="black cross" />
-          </div>
+          <div className="about-header-pic"></div>
         </div>
       </div>
 

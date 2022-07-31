@@ -4,16 +4,21 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 70vh;
+    min-height: 85vh;
   }
   .about-header-container {
     display: grid;
-    grid-template-columns: 60% 40%;
+    grid-template-columns: 70% 30%;
     width: 70%;
+    height: 300px;
     h1 {
       color: black;
       font-family: $font-5;
-      line-height: 50px;
+      font-size: 2.5rem;
+      line-height: 60px;
+    }
+    .about-header-pic {
+      background: url("/assets/img/me.jpg") center/cover;
     }
   }
 
