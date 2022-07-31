@@ -78,4 +78,24 @@
       }
     }
   }
+
+  .quote {
+    padding: 40px 0 120px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+    width: 70%;
+    q {
+      font-size: 2rem;
+      text-align: center;
+    }
+    p {
+      bottom: 50px;
+      right: 30px;
+      position: absolute;
+      font-size: 1rem;
+      font-family: $font-4;
+      color: $color-3;
+    }
+  }
 }

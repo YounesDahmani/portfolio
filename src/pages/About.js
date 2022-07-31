@@ -1,4 +1,5 @@
 import React from "react";
+import Footer from "../components/Footer";
 import Navbar from "../components/Navbar";
 
 const About = () => {
@@ -214,6 +215,19 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* -------------------- quote ------------------ */}
+
+      <div className="quote">
+        <q>
+          Each difficulty encountered must be an opportunity for further
+          progress.
+        </q>
+        <div className="quote-author">
+          <p>- Pierre de Coubertin</p>
+        </div>
+      </div>
+      <Footer />
     </div>
   );
 };
