@@ -18,6 +18,11 @@
   src: url(../assets/fonts/Helvetica.ttf);
 }
 
+@font-face {
+  font-family: "font-5";
+  src: url(../assets/fonts/VisueltPro-ExtraLight.ttf);
+}
+
 @mixin texteffect {
   span {
     position: relative;
@@ -75,6 +80,7 @@ $font-1: "font-1", sans-serif;
 $font-2: "font-2", sans-serif;
 $font-3: "font-3", sans-serif;
 $font-4: "font-4", sans-serif;
+$font-5: "font-5", sans-serif;
 $background-color: #f8f8f8;
 $color-1: #000;
 $color-2: #9d9d9d;

@@ -1,0 +1,53 @@
+.about {
+  background: white;
+  .about-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 70vh;
+  }
+  .about-header-container {
+    display: grid;
+    grid-template-columns: 60% 40%;
+    width: 70%;
+    h1 {
+      color: black;
+      font-family: $font-5;
+      line-height: 50px;
+    }
+  }
+
+  .about-text-section {
+    width: 70%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-bottom: 80px;
+    .about-left-text {
+      display: flex;
+      flex-direction: row;
+      p {
+        padding-right: 20px;
+        font-family: $font-3;
+        font-size: 0.7rem;
+        span {
+          text-transform: uppercase;
+          font-family: $font-3;
+          font-size: 0.7rem;
+          color: $color-4;
+          letter-spacing: 2px;
+        }
+      }
+    }
+    .about-text-right-part {
+      h2 {
+        padding-bottom: 50px;
+      }
+      p {
+        color: rgb(55, 55, 55);
+        font-family: $font-3;
+        line-height: 40px;
+      }
+    }
+  }
+}
