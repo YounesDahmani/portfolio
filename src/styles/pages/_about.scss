@@ -48,6 +48,34 @@
         font-family: $font-3;
         line-height: 40px;
       }
+      a,
+      a:visited {
+        color: $color-4;
+        text-decoration: underline;
+        font-family: $font-3;
+      }
+      .about-text-social {
+        padding-bottom: 50px;
+      }
+      .table-tools {
+        padding: 40px 0px;
+        display: grid;
+        grid-template-columns: 30% 70%;
+
+        tr th {
+          text-align: left;
+          padding-bottom: 30px;
+        }
+        tbody {
+          color: $color-4;
+          font-family: $font-3;
+          font-size: 0.9rem;
+          tr td {
+            padding-bottom: 20px;
+            padding-right: 20px;
+          }
+        }
+      }
     }
   }
 }

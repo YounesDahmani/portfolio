@@ -102,6 +102,118 @@ const About = () => {
           </div>
         </div>
       </div>
+
+      {/* -------------- Third Part ------------- */}
+
+      <div className="about-text-section">
+        <div className="about-text-left-part">
+          <div className="about-left-text">
+            <p>/03</p>
+            <p>
+              <span>the tools</span>
+            </p>
+          </div>
+        </div>
+
+        <div className="about-text-right-part">
+          <div className="about-title">
+            <h2>What i use.</h2>
+          </div>
+          <div className="about-text-paragraph">
+            <p>
+              I use a number of tools that make design and development much
+              easier. I usually use Adobe XD or Figma interchangeably for doing
+              all the process that includes wireframing, prototyping and visual
+              design. For wireframing alone, any graphic design tool can make
+              the job done either it is low fidelity or high fidelity wireframe.
+              For development/coding, I use different tools specific to the
+              development of the application or website. Listed below are the
+              tools and technologies that I use and I'm knowledgeable with.
+            </p>
+          </div>
+          <div className="table-tools">
+            <div className="creative-table">
+              <table>
+                <thead className="table-title">
+                  <tr>
+                    <th>Creative Design</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Figma</td>
+                  </tr>
+                  <tr>
+                    <td>Adobe Photoshop</td>
+                  </tr>
+                  <tr>
+                    <td>Adobe Illustrator</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+
+            <div className="dev-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th colSpan={2}>Web Development</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML 5</td>
+                    <td>Git</td>
+                    <td>TypeScript</td>
+                  </tr>
+                  <tr>
+                    <td>CSS 3</td>
+                    <td>Redux</td>
+                    <td>Firebase</td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>React JS</td>
+                    <td>Node JS</td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      {/* ----------------- Fourth Part ------------------ */}
+
+      <div className="about-text-section">
+        <div className="about-text-left-part">
+          <div className="about-left-text">
+            <p>/04</p>
+            <p>
+              <span>Contact</span>
+            </p>
+          </div>
+        </div>
+
+        <div className="about-text-right-part">
+          <div className="about-title">
+            <h2>Social.</h2>
+          </div>
+          <div className="about-text-social">
+            <a href="#">Linkedin</a>
+            <span> / </span>
+            <a href="#">Github</a>
+            <span> / </span>
+            <a href="#">Twitter</a>
+          </div>
+          <div className="about-title">
+            <h2>Email.</h2>
+          </div>
+          <div className="about-text-email">
+            <a href="#">y.dahmaniyounes@gmail.com</a>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
