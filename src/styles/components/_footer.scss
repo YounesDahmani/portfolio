@@ -28,11 +28,21 @@
         &::before {
           background: #303030;
         }
+        &:hover::before {
+          width: 180px;
+        }
+        span {
+          color: white;
+        }
         svg {
           fill: white;
         }
       }
     }
+  }
+
+  a:hover {
+    background: transparent;
   }
 
   .credits {
@@ -48,7 +58,8 @@
     ul {
       padding: 10px;
     }
-    li {
+    a {
+      margin-right: 40px;
       color: white;
       position: relative;
       z-index: 10;

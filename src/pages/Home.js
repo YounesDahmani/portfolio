@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { NavLink } from "react-router-dom";
 import Button from "../components/Button";
 import Footer from "../components/Footer";
@@ -8,9 +8,6 @@ import Project from "../components/Project";
 // import "aos/dist/aos.css";
 
 const Home = () => {
-  // useEffect(() => {
-  //   Aos.init({ duration: 1500 });
-  // }, []);
   return (
     <div className="home">
       <div className="header">
@@ -28,29 +25,40 @@ const Home = () => {
                 <br />
                 based in France.
               </p>
-              <Button content="see my works" />
+              <NavLink to="/works">
+                <Button content="see my works" />
+              </NavLink>
             </div>
 
             <div className="img-container sizing">
-              <img src="./assets/img/cross-black.svg" alt="black cross" />
+              <img src="./assets/img/dev-item.svg" alt="men coding" />
             </div>
           </div>
           <div className="social">
             <ul>
               <li>
-                <span>Github</span>
+                <a href="https://github.com/YounesDahmani" target="_blank">
+                  Github
+                </a>
               </li>
 
               <div className="slash"> / </div>
 
               <li>
-                <span>Linkedin</span>
+                <a
+                  href="https://www.linkedin.com/in/younes-dahmani-135610137/"
+                  target="_blank"
+                >
+                  Linkedin
+                </a>
               </li>
 
               <div className="slash"> / </div>
 
               <li>
-                <span>Twitter</span>
+                <a href="https://twitter.com/YounesDevJr" target="_blank">
+                  Twitter
+                </a>
               </li>
             </ul>
           </div>

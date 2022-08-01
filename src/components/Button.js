@@ -4,7 +4,7 @@ const Button = ({ content }) => {
   return (
     <div className="button">
       <div className="container">
-        <a>{content}</a>
+        <span>{content}</span>
         <svg
           className="right-arrow"
           width="24"
