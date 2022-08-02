@@ -35,29 +35,35 @@ const About = () => {
           </div>
           <div className="about-text-paragraph">
             <p>
-              Hi! I'm Julius Guevarra. I have a strong passion for design and
-              technology. I specialize in Front End Development and UI/UX Design
-              and my passion is all about building elegant and professional user
-              interfaces and websites. I also do branding and identity design
-              such as logo design, letterhead and business card, along with
-              photo editing, image cropping and other graphic design services.{" "}
-              <br /> <br />I live in the Philippines. I am a graduate of
-              Information Technology from Don Honorio Ventura State University.
-              I started drawing and designing from a young age and most of my
-              design skills and knowledge are self-taught. I got into
-              programming when I was introduced to web programming during high
-              school. It fascinated me and it hooked me on, so I decided to
-              pursue this career. Even though I took the path of becoming a
-              programmer, my strong and innate talent in arts and design
-              persisted. Consequently, I taught myself about multimedia design.
-              Combining the state of the art and my programming knowledge, I am
-              able to build a professional and interactive websites.
-              <br /> <br /> I will not stick around on just doing Front End
-              development projects. My goal is to take it to the next level of
-              becoming a Full Stack Developer and become one of the world's top
-              designers, so now, I am working towards it. I have prepared myself
-              to accept the challenges into this ever changing world and I will
-              try my very best to achieve my dreams and goals.
+              Hi, I'm Younes Dahmani. I'm a 24 years old developer, living in
+              Lille, France. I specialized in front-end development less than a
+              year ago.
+              <br /> <br />
+              When I was younger, many people around me knew exactly what job
+              they wanted to do later on. I didn't have a clue ! Apart from
+              soccer and technology, I wasn't very enthusiastic about anything
+              else. I was very bad at soccer and for a long time I had the
+              belief that to work in development or tech you had to be a genius
+              and do long studies. I obtained my technological baccalaureate,
+              then I realized two additional years and I obtained my B.T.S. I
+              did my studies in the field of commerce, something I hate. I did
+              not work for passion but for necessity without knowing where I was
+              going. <br />
+              Then one day, I had a click, I had to find my way! I knew that the
+              only thing that interested me was technology, but I had strong
+              limiting beliefs about it. It's by dint of informing myself and
+              learning about the subject that I understood that with
+              perseverance and hard work I could do it. So I started to train
+              for several months on OpenClassrooms, and then I bought a more
+              structured training, and oriented on the Front-end. Today the
+              technologies I use the most are Javascript React and Sass.
+              <br /> <br /> Now, I would like to join a team that would help me
+              to improve my skills and make me discover new things.I am always
+              thirsty for knowledge and the more I learn the more I see that I
+              still have to learn! After having acquired a good experience in
+              web development, I would like to develop mobile applications and
+              why not learn other languages too, the environment of development
+              is so vast!
             </p>
           </div>
         </div>

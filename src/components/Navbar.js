@@ -4,22 +4,23 @@ import { NavLink } from "react-router-dom";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <NavLink to="/" className={(nav) => (nav.isActive ? "nav-active" : "")}>
+      <NavLink to="/">
         <p>Younes</p>
       </NavLink>
 
       <ul className="menu">
         <NavLink
           to="/about"
-          className={(nav) => (nav.isActive ? "nav-active" : "")}
+          className={({ isActive }) => (isActive ? "active" : "")}
         >
           <li>
             <span>About</span>
           </li>
         </NavLink>
+
         <NavLink
           to="/works"
-          className={(nav) => (nav.isActive ? "nav-active" : "")}
+          className={({ isActive }) => (isActive ? "active" : "")}
         >
           <li>
             <span>Works</span>
@@ -27,7 +28,7 @@ const Navbar = () => {
         </NavLink>
         <NavLink
           to="/contact"
-          className={(nav) => (nav.isActive ? "nav-active" : "")}
+          className={({ isActive }) => (isActive ? "active" : "")}
         >
           <li>
             <span>Contact</span>

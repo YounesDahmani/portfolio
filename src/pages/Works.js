@@ -12,7 +12,7 @@ const Works = () => {
 
       <div className="works-header">
         <h1>My Works.</h1>
-        <i class="fa-solid fa-angle-down"></i>
+        <i className="fa-solid fa-angle-down"></i>
       </div>
 
       {/* ------------ PROJECTS -------------- */}

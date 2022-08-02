@@ -1,112 +1,113 @@
-.header {
-  background: url("/assets/img/white-circle.svg") no-repeat center;
-  background-size: 35%;
-  min-height: 100vh;
-  background-color: $background-color;
-}
-.header-container {
-  min-height: 90vh;
-  width: 75%;
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-}
-.header-content {
-  display: grid;
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-  grid-template-columns: 60% 40%;
-  min-height: 75vh;
-}
-
-.header-text {
-  h1 {
-    font-size: 3rem;
+.home {
+  .header {
+    background: url("/assets/img/white-circle.svg") no-repeat center;
+    background-size: 35%;
+    min-height: 100vh;
+    background-color: $background-color;
   }
-  p {
-    font-family: $font-3;
-    color: $color-4;
-    line-height: 30px;
-    font-size: 1.2rem;
-    padding: 15px 0px 50px;
-  }
-}
-
-.social {
-  display: flex;
-  flex-direction: row;
-  li {
-    display: inline-block;
-    padding: 0 20px;
-    @include texteffect;
-  }
-}
-
-ul {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  color: #515151;
-}
-.slash {
-  padding: 0px 20px;
-}
-
-.projects {
-  background: white;
-  display: flex;
-  align-items: center;
-  padding: 150px 0px;
-  h2 {
-    font-size: 3rem;
-  }
-  p {
-    padding-top: 55px;
-    font-family: $font-3;
-    color: $color-6;
-  }
-}
-.projects-content {
-  background: white;
-}
-.project-title {
-  width: 75%;
-  margin: 0 auto;
-}
-
-.view-more-projects {
-  background: white;
-  display: flex;
-  align-items: center;
-  padding: 150px 0px;
-  h2 {
-    font-size: 3rem;
-    cursor: pointer;
-    transition: 0.3s ease-in-out;
-    width: fit-content;
-
-    &:hover {
-      transform: translateX(20px);
-    }
-  }
-  p {
-    padding: 55px 0px 30px;
-    font-family: $font-3;
-    color: $color-6;
-    text-transform: uppercase;
-    letter-spacing: 4px;
-    color: $color-4;
-    font-size: 0.7rem;
-  }
-  .vmp-container {
+  .header-container {
+    min-height: 90vh;
     width: 75%;
     margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    .header-content {
+      display: grid;
+      align-items: center;
+      justify-content: center;
+      width: 100%;
+      grid-template-columns: 60% 40%;
+      min-height: 75vh;
+      .header-text {
+        h1 {
+          font-size: 3rem;
+        }
+        p {
+          font-family: $font-3;
+          color: $color-4;
+          line-height: 30px;
+          font-size: 1.2rem;
+          padding: 15px 0px 50px;
+        }
+      }
+    }
+
+    .social {
+      display: flex;
+      flex-direction: row;
+      ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        color: #515151;
+      }
+      li {
+        .slash {
+          padding: 0px 20px;
+        }
+        display: inline-block;
+        padding: 0 20px;
+        @include texteffect;
+      }
+    }
+  }
+
+  .projects {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 150px 0px;
+    h2 {
+      font-size: 3rem;
+    }
+    p {
+      padding-top: 55px;
+      font-family: $font-3;
+      color: $color-6;
+    }
+  }
+
+  .project-title {
+    width: 75%;
+    margin: 0 auto;
+  }
+  .projects-content {
+    background: white;
+  }
+
+  .view-more-projects {
+    background: white;
+    display: flex;
+    align-items: center;
+    padding: 150px 0px;
+    h2 {
+      font-size: 3rem;
+      cursor: pointer;
+      transition: 0.3s ease-in-out;
+      width: fit-content;
+
+      &:hover {
+        transform: translateX(20px);
+      }
+    }
+    p {
+      padding: 55px 0px 30px;
+      font-family: $font-3;
+      color: $color-6;
+      text-transform: uppercase;
+      letter-spacing: 4px;
+      color: $color-4;
+      font-size: 0.7rem;
+    }
+    .vmp-container {
+      width: 75%;
+      margin: 0 auto;
+    }
   }
 }
