@@ -106,3 +106,38 @@ body {
   height: 100vh;
   overflow-x: hidden;
 }
+
+.contact,
+.works,
+.about,
+.home {
+  width: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0%);
+}
+
+.load-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  z-index: 10;
+  pointer-events: none;
+}
+.load-screen {
+  position: relative;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  background-color: #000;
+  width: 0%;
+  height: 100%;
+}
+
+.Headd {
+  opacity: 0;
+  pointer-events: none;
+}
