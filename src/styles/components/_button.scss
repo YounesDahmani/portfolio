@@ -5,6 +5,12 @@
   text-transform: uppercase;
   font-family: $font-2;
   z-index: 10000;
+  @media screen and (max-width: 620px) {
+    justify-content: center;
+  }
+  @media screen and (max-width: 420px) {
+    width: 200px;
+  }
 }
 .container {
   display: flex;
@@ -14,6 +20,9 @@
   z-index: 10000;
   span {
     z-index: 10000;
+    @media screen and (max-width: 420px) {
+      font-size: 0.8rem;
+    }
   }
 
   &::before {

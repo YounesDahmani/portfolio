@@ -18,7 +18,12 @@
     padding-right: 60px;
     display: flex;
     justify-content: space-between;
-    min-width: 20%;
+    min-width: 25%;
+
+    li {
+      margin-right: 10px;
+    }
+
     span {
       position: relative;
       display: block;

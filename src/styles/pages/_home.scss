@@ -1,4 +1,8 @@
 .home {
+  a,
+  a:visited {
+    color: black;
+  }
   .header {
     background: url("/assets/img/white-circle.svg") no-repeat center;
     background-size: 35%;
@@ -21,9 +25,19 @@
       width: 100%;
       grid-template-columns: 60% 40%;
       min-height: 75vh;
+      @media screen and (max-width: 620px) {
+        grid-template-columns: 100%;
+        text-align: center;
+      }
       .header-text {
         h1 {
           font-size: 3rem;
+          @media screen and (max-width: 929px) {
+            font-size: 2rem;
+          }
+          @media screen and (max-width: 372px) {
+            font-size: 1.5rem;
+          }
         }
         p {
           font-family: $font-3;
@@ -31,6 +45,21 @@
           line-height: 30px;
           font-size: 1.2rem;
           padding: 15px 0px 50px;
+          @media screen and (max-width: 929px) {
+            font-size: 1rem;
+          }
+          @media screen and (max-width: 372px) {
+            font-size: 0.8rem;
+          }
+        }
+        a,
+        a:visited {
+          color: black;
+        }
+      }
+      .img-container {
+        @media screen and (max-width: 620px) {
+          display: none;
         }
       }
     }
@@ -90,8 +119,10 @@
       font-size: 3rem;
       cursor: pointer;
       transition: 0.3s ease-in-out;
-      width: fit-content;
-
+      min-width: fit-content;
+      @media screen and (max-width: 560px) {
+        font-size: 2rem;
+      }
       &:hover {
         transform: translateX(20px);
       }

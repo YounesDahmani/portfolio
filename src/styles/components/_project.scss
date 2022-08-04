@@ -19,6 +19,10 @@
   width: 75%;
   margin: 0 auto;
   align-items: center;
+  @media screen and (max-width: 702px) {
+    grid-template-rows: 50% 50%;
+    grid-template-columns: 1fr;
+  }
 }
 
 .left-project-content {
@@ -31,6 +35,9 @@
     padding-top: 0.6rem;
     font-family: $font-3;
     color: rgb(186, 186, 186);
+    @media screen and (max-width: 870px) {
+      visibility: hidden;
+    }
   }
   h2 {
     padding-bottom: 15px;
@@ -38,6 +45,9 @@
     color: rgb(116, 116, 116);
     margin-block: 0;
     margin-inline: 0;
+    @media screen and (max-width: 705px) {
+      font-size: 1.5rem;
+    }
   }
   li {
     padding-left: 0;
@@ -47,8 +57,19 @@
 }
 
 .right-part-project {
+  @media screen and (max-width: 420px) {
+    padding-top: 30px;
+  }
   .button {
     justify-content: right;
+    @media screen and (max-width: 420px) {
+      width: 100%;
+    }
+    .container {
+      &::before {
+        max-width: 135%;
+      }
+    }
   }
 }
 
@@ -92,6 +113,9 @@
   &:hover > .project-content {
     .left-project-content {
       transform: scale(1.2) translateX(90px);
+      @media screen and (max-width: 870px) {
+        transform: translateX(40px);
+      }
     }
     h2 {
       color: $color-1;
@@ -119,6 +143,9 @@
           right: 100%;
           visibility: visible;
           max-width: 700px;
+          @media screen and (max-width: 870px) {
+            visibility: hidden;
+          }
         }
       }
     }
