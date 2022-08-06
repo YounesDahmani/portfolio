@@ -89,7 +89,7 @@ const Contact = () => {
             <h1>Get in touch.</h1>
             <p>
               Do you fancy saying hi to me or you want to get started with your
-              project and you need my help ? <br /> Feel free to contact me.
+              project and you need my help ? Feel free to contact me.
             </p>
             <div className="form-container">
               <form ref={form} onSubmit={sendEmail} className="form-content">
@@ -112,11 +112,9 @@ const Contact = () => {
                   className="input-contact"
                 />
                 <textarea placeholder="Message" name="message" id="mess" />
-                <input
-                  type="submit"
-                  value="SEND MESSAGE"
-                  className="hover button"
-                />
+                <div className="send-button">
+                  <input type="submit" value="SEND MESSAGE" />
+                </div>
               </form>
               <div className="form-message"></div>
             </div>

@@ -50,7 +50,7 @@ const About = () => {
           <Navbar />
           <div className="about-header">
             <div className="about-header-container">
-              <div className="-about-text">
+              <div className="about-text">
                 <h1>
                   I am a young front-end developer, <br /> who is eager to
                   discover <br />
