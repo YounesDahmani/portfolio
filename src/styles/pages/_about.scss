@@ -42,9 +42,10 @@
       background: url("/assets/img/me.jpg") center/cover;
       min-width: 200px;
       min-height: 300px;
-      @media screen and (max-width: 75px) {
+      @media screen and (max-width: 540px) {
         height: 300px;
         width: 200px;
+        margin-top: 50px;
       }
     }
   }
