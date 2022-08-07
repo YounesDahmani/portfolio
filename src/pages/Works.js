@@ -45,9 +45,9 @@ const Works = () => {
       <div className="load-container">
         <div className="load-screen" ref={(el) => (screen = el)}></div>
       </div>
+      <Navbar />
       <div data-barba="container" className="works">
         <div ref={(el) => (body = el)} className="Headd">
-          <Navbar />
           {/* -------- HEADER ------------ */}
 
           <div className="works-header">

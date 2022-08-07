@@ -81,10 +81,9 @@ const Contact = () => {
         <div className="load-screen" ref={(el) => (screen = el)}></div>
       </div>
 
+      <Navbar />
       <div data-barba="container" className="contact">
         <div ref={(el) => (body = el)} className="Headd">
-          <Navbar />
-
           <div className="contact-container">
             <h1>Get in touch.</h1>
             <p>

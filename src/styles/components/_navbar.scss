@@ -7,6 +7,7 @@
   padding: 30px;
   width: 100%;
   z-index: 99999;
+
   a:visited {
     color: $color-1;
   }
@@ -18,19 +19,50 @@
     padding-right: 60px;
     display: flex;
     justify-content: space-between;
-    min-width: 25%;
+    align-items: center;
+    @media screen and (max-width: 620px) {
+      display: flex;
+      justify-content: space-evenly;
+      flex-direction: column;
+      position: fixed;
+      width: 100%;
+      right: -100vw;
+      bottom: 0;
+      height: 100vh;
+      background-color: #000;
+      padding-right: 0;
+      transition: 1s ease;
+    }
 
     li {
       margin-right: 10px;
+      @media screen and (max-width: 620px) {
+        margin-right: 0;
+      }
     }
-
     span {
       position: relative;
       display: block;
       cursor: pointer;
-      color: $color-3;
+      color: black;
       font-family: $font-3;
       transition: 0.7s cubic-bezier(0.23, 1, 0.32, 1) 0s;
+      animation: setColor 1s ease-in-out forwards;
+      animation-delay: 2s;
+
+      @media screen and (max-width: 620px) {
+      }
+
+      @keyframes setColor {
+        from {
+          color: black;
+          visibility: hidden;
+        }
+        to {
+          color: $color-3;
+          visibility: visible;
+        }
+      }
 
       &:hover {
         text-decoration: none;
@@ -70,6 +102,61 @@
       transition: 0s;
     }
   }
+  .navbar-burger {
+    display: none;
+    width: 40px;
+    height: 40px;
+    background: transparent;
+    border: none;
+    color: white;
+    &:hover {
+      cursor: pointer;
+    }
+    @media screen and (max-width: 620px) {
+      display: block;
+      position: fixed;
+      top: 1rem;
+      right: 1rem;
+    }
+  }
+  .burger-bar,
+  .burger-bar:before,
+  .burger-bar::after {
+    display: block;
+    width: 40px;
+    height: 3px;
+    position: relative;
+    border-radius: 3px;
+    background: $color-3;
+  }
+  .burger-bar {
+    &::before,
+    &::after {
+      content: "";
+      position: absolute;
+      left: 0;
+    }
+    &::before {
+      transform: translateY(-12px);
+    }
+    &::after {
+      transform: translateY(12px);
+    }
+  }
+  .cross-burger {
+    background: transparent;
+    &::before {
+      transform: rotate(45deg);
+    }
+    &::after {
+      transform: rotate(-45deg);
+    }
+  }
+}
+
+.show-nav {
+  right: 0 !important;
+  width: 100vh;
 }
 .active {
   li {

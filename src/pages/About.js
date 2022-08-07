@@ -45,9 +45,9 @@ const About = () => {
         <div className="load-screen" ref={(el) => (screen = el)}></div>
       </div>
 
+      <Navbar />
       <div data-barba="container" className="about">
         <div ref={(el) => (body = el)} className="Headd">
-          <Navbar />
           <div className="about-header">
             <div className="about-header-container">
               <div className="about-text">

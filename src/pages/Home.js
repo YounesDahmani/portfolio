@@ -48,10 +48,10 @@ const Home = () => {
         <div className="load-screen" ref={(el) => (screen = el)}></div>
       </div>
 
+      <Navbar />
       <div data-barba="container" className="home">
         <div ref={(el) => (body = el)} className="Headd">
           <div className="header">
-            <Navbar />
             <div className="header-container">
               <div className="header-content">
                 <div className="header-text sizing">
