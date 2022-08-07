@@ -120,11 +120,16 @@
       cursor: pointer;
       transition: 0.3s ease-in-out;
       min-width: fit-content;
+      align-items: center;
+      display: flex;
       @media screen and (max-width: 560px) {
         font-size: 2rem;
       }
       &:hover {
         transform: translateX(20px);
+      }
+      i {
+        margin-left: 20px;
       }
     }
     p {
