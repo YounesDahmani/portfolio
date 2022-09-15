@@ -56,7 +56,7 @@ const Home = () => {
               <div className="header-content">
                 <div className="header-text sizing">
                   <h1>
-                    creative front-end
+                    ReactJs
                     <br />
                     web developer.
                   </h1>
@@ -77,7 +77,11 @@ const Home = () => {
               <div className="social">
                 <ul>
                   <li>
-                    <a href="https://github.com/YounesDahmani" target="_blank">
+                    <a
+                      href="https://github.com/YounesDahmani"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
                       Github
                     </a>
                   </li>
@@ -88,6 +92,7 @@ const Home = () => {
                     <a
                       href="https://www.linkedin.com/in/younes-dahmani-135610137/"
                       target="_blank"
+                      rel="noreferrer noopener"
                     >
                       Linkedin
                     </a>
@@ -96,7 +101,11 @@ const Home = () => {
                   <div className="slash"> / </div>
 
                   <li>
-                    <a href="https://twitter.com/YounesDevJr" target="_blank">
+                    <a
+                      href="https://twitter.com/YounesDevJr"
+                      target="_blank"
+                      rel="noreferrer noopener"
+                    >
                       Twitter
                     </a>
                   </li>

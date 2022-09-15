@@ -16,7 +16,11 @@ const Footer = () => {
         <p>Younes Dahmani © 2022. Tous droits réservés.</p>
         <ul>
           <li>
-            <a href="https://github.com/YounesDahmani" target="_blank">
+            <a
+              href="https://github.com/YounesDahmani"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <i className="fa-brands fa-github"></i>
             </a>
           </li>
@@ -25,13 +29,18 @@ const Footer = () => {
             <a
               href="https://www.linkedin.com/in/younes-dahmani-135610137/"
               target="_blank"
+              rel="noreferrer noopener"
             >
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
 
           <li>
-            <a href="https://twitter.com/YounesDevJr" target="_blank">
+            <a
+              href="https://twitter.com/YounesDevJr"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
               <i className="fa-brands fa-twitter"></i>
             </a>
           </li>

@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import Project from "../components/Project";
 import { TweenMax, TimelineMax, Power3, Power4 } from "gsap";
 import { useRef, useEffect } from "react";
+import GitHubIcon from "@mui/icons-material/GitHub";
 
 const Works = () => {
   let screen = useRef(null);
@@ -57,11 +58,30 @@ const Works = () => {
 
           {/* ------------ PROJECTS -------------- */}
           <div className="works-items">
-            <Project projectNumber={0} />
-            <Project projectNumber={1} />
-            <Project projectNumber={2} />
-            <Project projectNumber={3} />
-            <Project projectNumber={4} />
+            <Project
+              projectNumber={0}
+              link={"https://crypto-watch-real.netlify.app/"}
+            />
+            <Project
+              projectNumber={1}
+              link={"https://yourmoovie-app.netlify.app/"}
+            />
+            <Project
+              projectNumber={2}
+              link={"https://yd-vitrine-react.netlify.app/"}
+            />
+            <Project
+              projectNumber={3}
+              link={"https://real-cooking-app.netlify.app/"}
+            />
+            <Project
+              projectNumber={4}
+              link={"https://country-app-flag.netlify.app/"}
+            />
+            <Project
+              projectNumber={5}
+              link={"https://my-resto-app.netlify.app/"}
+            />
           </div>
 
           {/* ------------- GitHub projects ------------- */}
@@ -72,10 +92,42 @@ const Works = () => {
               Here are some of my projects that I created during my spare time.
               I constantly keep on improving my skills by making these fun
               projects. These projects are available on my {""}
-              <a href="https://github.com/YounesDahmani" target="_blank">
+              <a
+                href="https://github.com/YounesDahmani"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
                 github repository
               </a>
             </p>
+            <div className="github-list">
+              <ul>
+                <li>
+                  <GitHubIcon />
+                  <a href="https://github.com/YounesDahmani/moovie">
+                    Movie App
+                  </a>
+                </li>
+                <li>
+                  <GitHubIcon />
+                  <a href="https://github.com/YounesDahmani/react-vitrine">
+                    React Vitrine
+                  </a>
+                </li>
+                <li>
+                  <GitHubIcon />
+                  <a href="https://github.com/YounesDahmani/country-app">
+                    Country App
+                  </a>
+                </li>
+                <li>
+                  <GitHubIcon />
+                  <a href="https://github.com/YounesDahmani/coocking-app">
+                    Cooking App
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
 
           {/* --------------- FOOTER --------------- */}

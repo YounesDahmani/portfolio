@@ -242,15 +242,24 @@ const About = () => {
                 <a
                   href="https://www.linkedin.com/in/younes-dahmani-135610137/"
                   target="_blank"
+                  rel="noreferrer noopener"
                 >
                   Linkedin
                 </a>
                 <span> / </span>
-                <a href="https://github.com/YounesDahmani" target="_blank">
+                <a
+                  href="https://github.com/YounesDahmani"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   Github
                 </a>
                 <span> / </span>
-                <a href="https://twitter.com/YounesDevJr" target="_blank">
+                <a
+                  href="https://twitter.com/YounesDevJr"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                >
                   Twitter
                 </a>
               </div>
