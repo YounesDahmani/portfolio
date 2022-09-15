@@ -97,18 +97,6 @@ const Home = () => {
                       Linkedin
                     </a>
                   </li>
-
-                  <div className="slash"> / </div>
-
-                  <li>
-                    <a
-                      href="https://twitter.com/YounesDevJr"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                    >
-                      Twitter
-                    </a>
-                  </li>
                 </ul>
               </div>
             </div>

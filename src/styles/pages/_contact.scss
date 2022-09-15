@@ -88,8 +88,9 @@
           background: black;
           align-items: center;
           transition: 0.4s ease-in-out;
-          border-radius: 0;
           cursor: pointer;
+          -webkit-appearance: none;
+          border-radius: 0;
           &:hover {
             background: white;
             color: black;

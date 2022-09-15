@@ -34,16 +34,6 @@ const Footer = () => {
               <i className="fa-brands fa-linkedin"></i>
             </a>
           </li>
-
-          <li>
-            <a
-              href="https://twitter.com/YounesDevJr"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <i className="fa-brands fa-twitter"></i>
-            </a>
-          </li>
         </ul>
       </div>
     </div>
